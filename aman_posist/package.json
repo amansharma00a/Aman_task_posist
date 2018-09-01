@@ -1,0 +1,30 @@
+{
+  "name": "posist-campus-hiring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namansachdeva/POSist-Campus-Hiring.git"
+  },
+  "author": "Naman Sachdeva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namansachdeva/POSist-Campus-Hiring/issues"
+  },
+  "homepage": "https://github.com/namansachdeva/POSist-Campus-Hiring#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "crypto": "^1.0.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.9",
+    "mongoose-auto-increment": "^5.0.1",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.18.3"
+  }
+}
